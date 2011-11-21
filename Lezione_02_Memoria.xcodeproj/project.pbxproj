@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB6B4A70145AC12D00CF6318 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6B4A6F145AC12D00CF6318 /* UIKit.framework */; };
+		AB6B4A72145AC12D00CF6318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6B4A71145AC12D00CF6318 /* Foundation.framework */; };
+		AB6B4A74145AC12D00CF6318 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6B4A73145AC12D00CF6318 /* CoreGraphics.framework */; };
+		AB6B4A7A145AC12D00CF6318 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB6B4A78145AC12D00CF6318 /* InfoPlist.strings */; };
+		AB6B4A7C145AC12D00CF6318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6B4A7B145AC12D00CF6318 /* main.m */; };
+		AB6B4A80145AC12D00CF6318 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6B4A7F145AC12D00CF6318 /* AppDelegate.m */; };
+		AB6B4A83145AC12D00CF6318 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6B4A82145AC12D00CF6318 /* ViewController.m */; };
+		AB6B4A86145AC12D00CF6318 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6B4A84145AC12D00CF6318 /* ViewController.xib */; };
+		AB6B4A8E145AC22700CF6318 /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6B4A8D145AC22700CF6318 /* Foo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB6B4A6B145AC12D00CF6318 /* Lezione_02_Memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lezione_02_Memoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6B4A6F145AC12D00CF6318 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB6B4A71145AC12D00CF6318 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB6B4A73145AC12D00CF6318 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB6B4A77145AC12D00CF6318 /* Lezione_02_Memoria-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lezione_02_Memoria-Info.plist"; sourceTree = "<group>"; };
+		AB6B4A79145AC12D00CF6318 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB6B4A7B145AC12D00CF6318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB6B4A7D145AC12D00CF6318 /* Lezione_02_Memoria-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lezione_02_Memoria-Prefix.pch"; sourceTree = "<group>"; };
+		AB6B4A7E145AC12D00CF6318 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB6B4A7F145AC12D00CF6318 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB6B4A81145AC12D00CF6318 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB6B4A82145AC12D00CF6318 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB6B4A85145AC12D00CF6318 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AB6B4A8C145AC22700CF6318 /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		AB6B4A8D145AC22700CF6318 /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB6B4A68145AC12D00CF6318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6B4A70145AC12D00CF6318 /* UIKit.framework in Frameworks */,
+				AB6B4A72145AC12D00CF6318 /* Foundation.framework in Frameworks */,
+				AB6B4A74145AC12D00CF6318 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB6B4A60145AC12D00CF6318 = {
+			isa = PBXGroup;
+			children = (
+				AB6B4A75145AC12D00CF6318 /* Lezione_02_Memoria */,
+				AB6B4A6E145AC12D00CF6318 /* Frameworks */,
+				AB6B4A6C145AC12D00CF6318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB6B4A6C145AC12D00CF6318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6B4A6B145AC12D00CF6318 /* Lezione_02_Memoria.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB6B4A6E145AC12D00CF6318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB6B4A6F145AC12D00CF6318 /* UIKit.framework */,
+				AB6B4A71145AC12D00CF6318 /* Foundation.framework */,
+				AB6B4A73145AC12D00CF6318 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB6B4A75145AC12D00CF6318 /* Lezione_02_Memoria */ = {
+			isa = PBXGroup;
+			children = (
+				AB6B4A8F145AC22C00CF6318 /* Foo */,
+				AB6B4A7E145AC12D00CF6318 /* AppDelegate.h */,
+				AB6B4A7F145AC12D00CF6318 /* AppDelegate.m */,
+				AB6B4A81145AC12D00CF6318 /* ViewController.h */,
+				AB6B4A82145AC12D00CF6318 /* ViewController.m */,
+				AB6B4A84145AC12D00CF6318 /* ViewController.xib */,
+				AB6B4A76145AC12D00CF6318 /* Supporting Files */,
+			);
+			path = Lezione_02_Memoria;
+			sourceTree = "<group>";
+		};
+		AB6B4A76145AC12D00CF6318 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB6B4A77145AC12D00CF6318 /* Lezione_02_Memoria-Info.plist */,
+				AB6B4A78145AC12D00CF6318 /* InfoPlist.strings */,
+				AB6B4A7B145AC12D00CF6318 /* main.m */,
+				AB6B4A7D145AC12D00CF6318 /* Lezione_02_Memoria-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB6B4A8F145AC22C00CF6318 /* Foo */ = {
+			isa = PBXGroup;
+			children = (
+				AB6B4A8C145AC22700CF6318 /* Foo.h */,
+				AB6B4A8D145AC22700CF6318 /* Foo.m */,
+			);
+			name = Foo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB6B4A6A145AC12D00CF6318 /* Lezione_02_Memoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6B4A89145AC12D00CF6318 /* Build configuration list for PBXNativeTarget "Lezione_02_Memoria" */;
+			buildPhases = (
+				AB6B4A67145AC12D00CF6318 /* Sources */,
+				AB6B4A68145AC12D00CF6318 /* Frameworks */,
+				AB6B4A69145AC12D00CF6318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lezione_02_Memoria;
+			productName = Lezione_02_Memoria;
+			productReference = AB6B4A6B145AC12D00CF6318 /* Lezione_02_Memoria.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6B4A62145AC12D00CF6318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Cutaway SRL";
+			};
+			buildConfigurationList = AB6B4A65145AC12D00CF6318 /* Build configuration list for PBXProject "Lezione_02_Memoria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB6B4A60145AC12D00CF6318;
+			productRefGroup = AB6B4A6C145AC12D00CF6318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB6B4A6A145AC12D00CF6318 /* Lezione_02_Memoria */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB6B4A69145AC12D00CF6318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6B4A7A145AC12D00CF6318 /* InfoPlist.strings in Resources */,
+				AB6B4A86145AC12D00CF6318 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB6B4A67145AC12D00CF6318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6B4A7C145AC12D00CF6318 /* main.m in Sources */,
+				AB6B4A80145AC12D00CF6318 /* AppDelegate.m in Sources */,
+				AB6B4A83145AC12D00CF6318 /* ViewController.m in Sources */,
+				AB6B4A8E145AC22700CF6318 /* Foo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB6B4A78145AC12D00CF6318 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6B4A79145AC12D00CF6318 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB6B4A84145AC12D00CF6318 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6B4A85145AC12D00CF6318 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB6B4A87145AC12D00CF6318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB6B4A88145AC12D00CF6318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB6B4A8A145AC12D00CF6318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lezione_02_Memoria/Lezione_02_Memoria-Prefix.pch";
+				INFOPLIST_FILE = "Lezione_02_Memoria/Lezione_02_Memoria-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB6B4A8B145AC12D00CF6318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lezione_02_Memoria/Lezione_02_Memoria-Prefix.pch";
+				INFOPLIST_FILE = "Lezione_02_Memoria/Lezione_02_Memoria-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB6B4A65145AC12D00CF6318 /* Build configuration list for PBXProject "Lezione_02_Memoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6B4A87145AC12D00CF6318 /* Debug */,
+				AB6B4A88145AC12D00CF6318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6B4A89145AC12D00CF6318 /* Build configuration list for PBXNativeTarget "Lezione_02_Memoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6B4A8A145AC12D00CF6318 /* Debug */,
+				AB6B4A8B145AC12D00CF6318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB6B4A62145AC12D00CF6318 /* Project object */;
+}
